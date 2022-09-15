@@ -1,7 +1,6 @@
 // Wanted to give off the vibe of those old bowling alley carpets
 // with all of those unique shapes just creating an abstract design
 
-float opacity;
 float randRed, randGreen, randBlue;
 
 void setup() {
@@ -15,7 +14,6 @@ void draw() {
   randRed = random(200, 255);
   randGreen = random(200, 255);
   randBlue = random(200,255);
-  opacity = random(0, 255);
   
   // Change the stroke color and begin making our green lightning bolt like object
   stroke(19, 255, 98);
